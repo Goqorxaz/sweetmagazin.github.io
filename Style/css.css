@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    text-decoration: none;
+    font-family: serif;
+}
+body{
+    background: linear-gradient(40deg,hsl(0, 100%, 50%,0.8),hsl(240, 100%, 50%,0.8),hsl(120, 100%, 25%,0.5));
+    z-index: 5;
+}
+
+.header{
+    width: 100% !important;
+    height:150px !important;
+    background: #000;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 45px 0 !important;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 420px;
+}
+.header a{
+    color: white;
+    transition: 0.5s;
+}
+.header a:hover{
+    color: yellowgreen;
+    border-bottom: 1px solid greenyellow !important;
+}
+.listMenu{
+    display: flex;
+    font-size: 25px;
+    list-style: none;
+    gap: 20px;
+}
+.login{
+    border-left: 2px solid;
+    font-size: 20px;
+    border-right:2px solid ;
+    padding: 0 10px;
+}
+.login:hover{
+    color:red !important
+}
+.myUl a{
+    color: white !important;
+    transition: 0.5s;
+}
+.myUl a:hover{
+    color:yellowgreen !important;
+}
+.myFoot{
+    background: black;
+    transition: 0.5s;
+}
+.myFoot a:hover{
+    border-bottom: 1px solid;
+}
+.page{
+    display: flex !important;
+    justify-content: center !important;
+}
+.page a{
+    color: black !important;
+    transition: 0.5s !important;
+
+}
+.page a:hover{
+    color: yellowgreen !important;
+
+}
+.tort h1{
+    text-align: center;
+    border: 2px solid black;
+    padding: 30px 0;
+    border-radius: 10px ;
+}
+.adr{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+iframe{
+    margin-top: 80px;
+}
+
+#btn a{
+    width: 120px !important;
+    height: 50px !important;
+    background: red !important;    
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    margin: 10px auto !important;
+    text-align: center !important;
+    border-radius: 10px !important;
+    transition: 0.5s !important;
+    padding: 0 20px !important;
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+#btn a:hover{
+    background: yellowgreen !important;
+    color: white !important;
+}
+.cake{
+    position: relative;
+}
+.outcake{
+    position: absolute;
+    left:-40%;
+    top: 100%;
+    list-style: none;
+    z-index: 2;
+    display: none;
+}
+.outcake a{
+    z-index:6;
+    color:white
+}
+
+.cake:hover .outcake{
+    display: block;
+    color: yellowgreen;
+}
+
+.gg{
+    position: relative;
+    left:10%;
+    top: 40px;
+}
+.nkar{
+    width: 500px !important;
+    height: 500px !important;
+    border-radius: 50% !important;
+}
+.dd{
+    padding: 40px;
+}
+.div{
+    padding: 40px;
+    width: 500px;
+    height: 40px;
+}
+.uu{
+    font-size: 60px;
+    position: fixed !important;
+    left: 90%;
+    top: 85%;
+    z-index: 3;
+    opacity: 0;
+}
+
+#time{
+    font-size: 25px;
+    text-align: center;
+}
+.metsdiv{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.metsdiv .content1{
+    width: 510px;
+    height: 500px;
+    padding: 50px;
+    border-radius: 50% !important;
+
+}
+.content2{
+    width: 510px;
+    height: 500px;
+    padding: 50px;
+    border-radius: 50% !important;
+}
+.paragraf{
+    text-align: center;
+    font-size: larger;
+    padding: 20px 0;
+}
+
+.content2 img{
+    border-radius: 50%;
+}
+.content1 img{
+    border-radius: 50%;
+}
+.bigDiv{
+    width:  100%;
+    height: 100%;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    color: white;
+    font-size: 25px;
+    justify-content:center;
+    align-content: center;
+    gap: 185px;
+    position: relative;
+    
+}
+.bigDiv img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.divik{
+    margin: 0 auto;
+    font-size: 25px;
+    gap: 25px;
+}
+.divik a{
+    transition: 0.5s !important;
+}
+.divik a:hover{
+    color: yellowgreen !important;
+    border-bottom: 2px solid yellowgreen;
+}
